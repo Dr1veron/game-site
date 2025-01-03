@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D4D4D4;
+    font-family: "JetBrains Mono", serif;
+}
+
+header {
+    color: #6579FF;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 220%;
+}
+
+.cards {
+    margin: 5% 20% 5%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
+}
+
+.card {
+    width: 332px;
+    height: 497px;
+    border-radius: 4%;
+    background-color: #F1EFEF;
+}
+
+.header-card {
+    text-align: center;
+    font-size: 160%;
+}
+
+.img-card img {
+    border-radius: 3%;
+}
